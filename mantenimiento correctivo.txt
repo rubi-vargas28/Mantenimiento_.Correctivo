@@ -1,0 +1,59 @@
+Bitacora del repositorio Git
+Mantenimiento correctivo
+
+Fecha: 28 de septiembre de 2026
+Autor: Tania Rubi Cardenas Vargas
+Tema: Bitacora del repositorio Git mantenimiento correctivo
+
+Objetivo
+Registrar las fallas encontradas en un repositorio y establecer una solucion para cada problema.
+
+Desarrollo de la actividad
+Durante la revision del repositorio se identificaron 13 problemas, organizados:
+
+Error al conectar con la base de datos: se detectaron credenciales incorrectas en las variables del entorno.
+Solucion: corregir las variables de conexion y reiniciar el servidor.
+
+Consultas lentas: algunas consultas tardaban demasiado en ejecutarse.
+Solucion: optimizar las consultas y mejorar la infraestructura de la base de datos.
+
+Datos duplicados: existian registros repetidos y faltaban restricciones en la base de datos.
+Solucion: implementar restricciones que eviten la duplicación de informacion.
+
+Vulnerabilidad de inyecciones SQL: existia el riesgo de introducir codigo SQL mediante consultas.
+Solucion: separar el codigo SQL de los datos proporcionados por los usuarios y utilizar consultas seguras.
+
+Diseño no responsivo: la pagina presentaba problemas al visualizarse en telefonos y computadoras.
+Solucion: adaptar el diseño para que responda correctamente a diferentes tamaños de pantalla.
+
+Enlaces rotos, error 404: se encontraron rutas internas incorrectas.
+Solucion: revisar y corregir los enlaces y las rutas internas.
+
+Incompatibilidad con el navegador: algunas funciones de CSS no eran compatibles con navegadores antiguos.
+Solucion: actualizar el CSS y utilizar funciones compatibles con los navegadores necesarios.
+
+Envio de datos no validos: algunos formularios permitian introducir datos incorrectos.
+Solucion: agregar validaciones a los formularios para evitar información incorrecta.
+
+Inicio de sesion defectuoso: se detecto informacion mal escrita o incorrecta durante el inicio de sesion.
+Solucion: corregir la informacion y validar adecuadamente el proceso de autenticacion.
+
+Falta de certificado SSL: el sitio no contaba con una conexion completamente segura.
+Solucion: instalar y configurar un certificado SSL.
+
+Imagenes o archivos no cargados: habia rutas incorrectas de archivos.
+Solucion: corregir las rutas y verificar que los archivos existan.
+
+Estilos CSS no validos: se encontraron listas de estilos incorrectas.
+Solucion: corregir los estilos y eliminar las reglas sobrantes.
+
+Roles de usuarios descontrolados: se observaron errores en las autorizaciones.
+Solucion: implementar un mejor sistema de autorizacion y control de usuarios.
+
+Resultados
+
+Despues de analizar las fallas, se establecieron soluciones para cada problema. 
+
+Conclusion
+
+La actividad permitio identificar diferentes errores que pueden aparecer durante el desarrollo y mantenimiento de un proyecto el mantenimiento correctivo ayuda a detectar y solucionar problemas antes de que afecten de manera importante al funcionamiento del proyecto.
